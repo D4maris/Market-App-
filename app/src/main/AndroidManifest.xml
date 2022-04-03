@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.marketapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Marketapp">
+        <activity
+            android:name=".detail.Detail_screen"
+            android:exported="true"
+            android:parentActivityName=".Item.ItemActivity"
+            android:label="Detail"/>
+        <activity
+            android:name=".Item.ElectronicItem"
+            android:exported="true" />
+        <activity
+            android:name=".Item.BookItem"
+            android:exported="true" />
+        <activity
+            android:name=".Item.JeansItem"
+            android:exported="true" />
+        <activity
+            android:name=".Item.ShoesItem"
+            android:exported="true" />
+        <activity
+            android:name=".Item.FormalItems"
+            android:exported="true" />
+        <activity
+            android:name=".Item.ItemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".loginscreen.SubCategoryWomen_screen"
+            android:exported="true" />
+        <activity
+            android:name=".loginscreen.SubCategoryMan_screen"
+            android:exported="true" />
+        <activity
+            android:name=".loginscreen.Category_screen"
+            android:exported="true" />
+        <activity
+            android:name=".admin_add.Add_Staff_Product"
+            android:exported="true" />
+        <activity
+            android:name=".loginscreen.Admin"
+            android:exported="true" />
+        <activity
+            android:name=".loginscreen.New_user"
+            android:exported="true" />
+        <activity
+            android:name=".loginscreen.About_screen"
+            android:exported="true" />
+        <activity
+            android:name=".loginscreen.Staff_login"
+            android:exported="true" />
+        <activity
+            android:name=".loginscreen.User_login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".loginscreen.Login_View"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">marketapp</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_recipe">RecipeActivity</string>
+
+    <string-array name="products_tshirt">
+        <item>adidas</item>
+        <item>champion</item>
+        <item>nike </item>
+        <item>boom ID</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+    </string-array>
+
+    <string-array name="products_formal">
+        <item>Green</item>
+        <item>White</item>
+        <item>Black</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="description_formal">
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+    </string-array>
+
+    <string-array name="products_jeans">
+        <item>skinny</item>
+        <item>overall</item>
+        <item>blue jeans</item>
+        <item>white jeans</item>
+    </string-array>
+
+    <string-array name="description_jeans">
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+        <item>This is random description</item>
+    </string-array>
+
+
+</resources>
